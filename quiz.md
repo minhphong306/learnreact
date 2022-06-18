@@ -1,3 +1,5 @@
+## Quiz 1:
+
 1. Why do we need `import React from "react"` in our files?
 - A: N/A
 - R: React is what defines JSX
@@ -21,3 +23,33 @@ const page = (
 5. What does it mean for something to be "composable"?
 - A: N/A
 - R: We have small pieces that we can put together to make something larger/greater than the individual pieces. 
+
+## Quiz 2: Custom component
+1. What is a React component?
+- A: Is a small pieces of code
+- R: A function that returns React elements.
+2. What's wrong with this code?
+```
+function myComponent() {
+  return (
+    <small>I'm tiny text!</small>
+  )
+}
+```
+- A: function name not start with capital
+3. What's wrong with this code?
+```
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="./react-logo.png" width="40px" />
+      </nav>
+    </header>
+  )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"))
+```
+- A: Wrong syntax, `Header()` -> `<Header/>`
+4. 
