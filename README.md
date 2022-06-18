@@ -1,0 +1,3 @@
+- Source of learning: https://www.youtube.com/watch?v=bMknfKXIFA8
+- Progress:
+  - 18/06/2022: [Goodbye, CDNs](https://www.youtube.com/watch?v=bMknfKXIFA8&t=2419s)
