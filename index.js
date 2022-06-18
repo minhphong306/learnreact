@@ -45,10 +45,18 @@ const funcFact = (
 function MyCustomPage() {
     return (
         <div>
+            <header>
+                <nav>
+                    <img src="assets/images/icon.png" alt="React icon" width={40}/>
+                </nav>
+            </header>
             <h1>Reason I learn React</h1>
             <ul>
                 <li>I don't like it</li>
             </ul>
+            <footer>
+                <small>2022 Phong Do development. All rights reserved.</small>
+            </footer>
         </div>
     )
 }
