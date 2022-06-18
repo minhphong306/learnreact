@@ -41,7 +41,19 @@ const funcFact = (
     </div>
 )
 
+// Challenge: Create a page using custom Page component
+function MyCustomPage() {
+    return (
+        <div>
+            <h1>Reason I learn React</h1>
+            <ul>
+                <li>I don't like it</li>
+            </ul>
+        </div>
+    )
+}
+
 ReactDOM.render(
-    funcFact,
+    <MyCustomPage/>,
     document.getElementById('root')
 )
